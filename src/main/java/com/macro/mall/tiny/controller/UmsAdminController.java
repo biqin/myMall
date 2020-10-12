@@ -54,7 +54,6 @@ public class UmsAdminController {
         Map<String, String> tokenMap = new HashMap<>();
         tokenMap.put("token", token);
         tokenMap.put("tokenHead", tokenHead);
-        System.out.println("test pr");
         return CommonResult.success(tokenMap);
     }
 
